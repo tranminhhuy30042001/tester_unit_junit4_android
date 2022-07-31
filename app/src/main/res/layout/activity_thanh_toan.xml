@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ThanhToanActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/Address">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/address_thanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/shr_hint_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_thanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:editable="false"
+        android:hint="@string/shr_hint_username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username_thanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+
+
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:editable="false"
+        android:hint="@string/date">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_thanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/Phone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone_thanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buy_thanhtoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="00dp"
+            android:text="@string/buy"
+            android:layout_marginStart="110dp"
+
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGiamGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="00dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/offer"
+            android:drawableLeft="@drawable/ic_baseline_qr_code_scanner_24"
+     />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
